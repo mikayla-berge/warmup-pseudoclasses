@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 300ms;
+}
+
+.box:hover{
+    background-color: red;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
